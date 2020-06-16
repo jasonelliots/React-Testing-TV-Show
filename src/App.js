@@ -33,7 +33,6 @@ export default function App() {
 
   return (
     <div className="App">
-      {console.log(show)}
       <img className="poster-img" src={show.image.original} alt={show.name} />
       <h1 data-testid="title">{show.name}</h1>
       {parse(show.summary)}
